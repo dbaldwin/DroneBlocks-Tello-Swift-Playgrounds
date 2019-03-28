@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2314B237224B0B1200FDACF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2314B236224B0B1200FDACF8 /* AppDelegate.swift */; };
+		2314B239224B0B1200FDACF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2314B238224B0B1200FDACF8 /* ViewController.swift */; };
+		2314B23C224B0B1200FDACF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2314B23A224B0B1200FDACF8 /* Main.storyboard */; };
+		2314B23E224B0B1300FDACF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2314B23D224B0B1300FDACF8 /* Assets.xcassets */; };
+		2314B241224B0B1300FDACF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2314B23F224B0B1300FDACF8 /* LaunchScreen.storyboard */; };
+		BB1335C505F9396E609A62A4 /* Pods_DroneBlocks_Tello_Swift_Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E8D6646DC17151EECCDCE5 /* Pods_DroneBlocks_Tello_Swift_Playground.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2314B233224B0B1200FDACF8 /* DroneBlocks-Tello-Swift-Playgrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DroneBlocks-Tello-Swift-Playgrounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2314B236224B0B1200FDACF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2314B238224B0B1200FDACF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2314B23B224B0B1200FDACF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2314B23D224B0B1300FDACF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2314B240224B0B1300FDACF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2314B242224B0B1300FDACF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2314B248224B0B8700FDACF8 /* 01-Swift-Intro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "01-Swift-Intro.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2314B249224B0BBA00FDACF8 /* 03-Basic-UDP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "03-Basic-UDP.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		238300CC224D7F9A007F93E3 /* 02-Swift-Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "02-Swift-Functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		56E8D6646DC17151EECCDCE5 /* Pods_DroneBlocks_Tello_Swift_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroneBlocks_Tello_Swift_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6693FE24F4E67D764ADB423F /* Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		7F424A8C3B1798A8C6E0C6BA /* Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2314B230224B0B1200FDACF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1335C505F9396E609A62A4 /* Pods_DroneBlocks_Tello_Swift_Playground.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2314B22A224B0B1100FDACF8 = {
+			isa = PBXGroup;
+			children = (
+				2314B248224B0B8700FDACF8 /* 01-Swift-Intro.playground */,
+				238300CC224D7F9A007F93E3 /* 02-Swift-Functions.playground */,
+				2314B249224B0BBA00FDACF8 /* 03-Basic-UDP.playground */,
+				2314B235224B0B1200FDACF8 /* DroneBlocks-Tello-Swift-Playground */,
+				2314B234224B0B1200FDACF8 /* Products */,
+				DD2B566501CDB54649DCF0ED /* Pods */,
+				9E8418647FA060ACD10A28B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2314B234224B0B1200FDACF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2314B233224B0B1200FDACF8 /* DroneBlocks-Tello-Swift-Playgrounds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2314B235224B0B1200FDACF8 /* DroneBlocks-Tello-Swift-Playground */ = {
+			isa = PBXGroup;
+			children = (
+				2314B236224B0B1200FDACF8 /* AppDelegate.swift */,
+				2314B238224B0B1200FDACF8 /* ViewController.swift */,
+				2314B23A224B0B1200FDACF8 /* Main.storyboard */,
+				2314B23D224B0B1300FDACF8 /* Assets.xcassets */,
+				2314B23F224B0B1300FDACF8 /* LaunchScreen.storyboard */,
+				2314B242224B0B1300FDACF8 /* Info.plist */,
+			);
+			path = "DroneBlocks-Tello-Swift-Playground";
+			sourceTree = "<group>";
+		};
+		9E8418647FA060ACD10A28B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56E8D6646DC17151EECCDCE5 /* Pods_DroneBlocks_Tello_Swift_Playground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2B566501CDB54649DCF0ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6693FE24F4E67D764ADB423F /* Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig */,
+				7F424A8C3B1798A8C6E0C6BA /* Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2314B232224B0B1200FDACF8 /* DroneBlocks-Tello-Swift-Playgrounds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2314B245224B0B1300FDACF8 /* Build configuration list for PBXNativeTarget "DroneBlocks-Tello-Swift-Playgrounds" */;
+			buildPhases = (
+				3D420BDD35F58E2460E21F28 /* [CP] Check Pods Manifest.lock */,
+				2314B22F224B0B1200FDACF8 /* Sources */,
+				2314B230224B0B1200FDACF8 /* Frameworks */,
+				2314B231224B0B1200FDACF8 /* Resources */,
+				E7A7172B0187F522052717B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DroneBlocks-Tello-Swift-Playgrounds";
+			productName = "DroneBlocks-Tello-Swift-Playground";
+			productReference = 2314B233224B0B1200FDACF8 /* DroneBlocks-Tello-Swift-Playgrounds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2314B22B224B0B1100FDACF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "DroneBlocks, LLC";
+				TargetAttributes = {
+					2314B232224B0B1200FDACF8 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2314B22E224B0B1100FDACF8 /* Build configuration list for PBXProject "DroneBlocks-Tello-Swift-Playgrounds" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2314B22A224B0B1100FDACF8;
+			productRefGroup = 2314B234224B0B1200FDACF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2314B232224B0B1200FDACF8 /* DroneBlocks-Tello-Swift-Playgrounds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2314B231224B0B1200FDACF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2314B241224B0B1300FDACF8 /* LaunchScreen.storyboard in Resources */,
+				2314B23E224B0B1300FDACF8 /* Assets.xcassets in Resources */,
+				2314B23C224B0B1200FDACF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D420BDD35F58E2460E21F28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DroneBlocks-Tello-Swift-Playground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A7172B0187F522052717B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Pods-DroneBlocks-Tello-Swift-Playground-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Pods-DroneBlocks-Tello-Swift-Playground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2314B22F224B0B1200FDACF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2314B239224B0B1200FDACF8 /* ViewController.swift in Sources */,
+				2314B237224B0B1200FDACF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2314B23A224B0B1200FDACF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2314B23B224B0B1200FDACF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2314B23F224B0B1300FDACF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2314B240224B0B1300FDACF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2314B243224B0B1300FDACF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2314B244224B0B1300FDACF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2314B246224B0B1300FDACF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6693FE24F4E67D764ADB423F /* Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP7ZU94CZV;
+				INFOPLIST_FILE = "DroneBlocks-Tello-Swift-Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.droneblocks.DroneBlocks-Tello-Swift-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2314B247224B0B1300FDACF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F424A8C3B1798A8C6E0C6BA /* Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP7ZU94CZV;
+				INFOPLIST_FILE = "DroneBlocks-Tello-Swift-Playground/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.droneblocks.DroneBlocks-Tello-Swift-Playground";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2314B22E224B0B1100FDACF8 /* Build configuration list for PBXProject "DroneBlocks-Tello-Swift-Playgrounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2314B243224B0B1300FDACF8 /* Debug */,
+				2314B244224B0B1300FDACF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2314B245224B0B1300FDACF8 /* Build configuration list for PBXNativeTarget "DroneBlocks-Tello-Swift-Playgrounds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2314B246224B0B1300FDACF8 /* Debug */,
+				2314B247224B0B1300FDACF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2314B22B224B0B1100FDACF8 /* Project object */;
+}
