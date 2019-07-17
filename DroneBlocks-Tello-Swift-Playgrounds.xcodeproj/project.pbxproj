@@ -12,7 +12,7 @@
 		2314B23C224B0B1200FDACF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2314B23A224B0B1200FDACF8 /* Main.storyboard */; };
 		2314B23E224B0B1300FDACF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2314B23D224B0B1300FDACF8 /* Assets.xcassets */; };
 		2314B241224B0B1300FDACF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2314B23F224B0B1300FDACF8 /* LaunchScreen.storyboard */; };
-		BB1335C505F9396E609A62A4 /* Pods_DroneBlocks_Tello_Swift_Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E8D6646DC17151EECCDCE5 /* Pods_DroneBlocks_Tello_Swift_Playground.framework */; };
+		F188E73F47C6E355C1BDF8AE /* Pods_DroneBlocks_Tello_Swift_Playgrounds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4CA6D02724134AC315037E /* Pods_DroneBlocks_Tello_Swift_Playgrounds.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +26,11 @@
 		2314B248224B0B8700FDACF8 /* 01-Swift-Intro.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "01-Swift-Intro.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2314B249224B0BBA00FDACF8 /* 03-Basic-UDP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "03-Basic-UDP.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		238300CC224D7F9A007F93E3 /* 02-Swift-Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "02-Swift-Functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		56E8D6646DC17151EECCDCE5 /* Pods_DroneBlocks_Tello_Swift_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroneBlocks_Tello_Swift_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4CA6D02724134AC315037E /* Pods_DroneBlocks_Tello_Swift_Playgrounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DroneBlocks_Tello_Swift_Playgrounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6693FE24F4E67D764ADB423F /* Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		78D919E338BDA1BD3A95D2D8 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroneBlocks-Tello-Swift-Playgrounds.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playgrounds/Pods-DroneBlocks-Tello-Swift-Playgrounds.release.xcconfig"; sourceTree = "<group>"; };
 		7F424A8C3B1798A8C6E0C6BA /* Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig"; sourceTree = "<group>"; };
+		E127BE162C3FA1D6E55B2D76 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DroneBlocks-Tello-Swift-Playgrounds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playgrounds/Pods-DroneBlocks-Tello-Swift-Playgrounds.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB1335C505F9396E609A62A4 /* Pods_DroneBlocks_Tello_Swift_Playground.framework in Frameworks */,
+				F188E73F47C6E355C1BDF8AE /* Pods_DroneBlocks_Tello_Swift_Playgrounds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +82,7 @@
 		9E8418647FA060ACD10A28B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				56E8D6646DC17151EECCDCE5 /* Pods_DroneBlocks_Tello_Swift_Playground.framework */,
+				4B4CA6D02724134AC315037E /* Pods_DroneBlocks_Tello_Swift_Playgrounds.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,6 +92,8 @@
 			children = (
 				6693FE24F4E67D764ADB423F /* Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig */,
 				7F424A8C3B1798A8C6E0C6BA /* Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig */,
+				E127BE162C3FA1D6E55B2D76 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.debug.xcconfig */,
+				78D919E338BDA1BD3A95D2D8 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -174,7 +178,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DroneBlocks-Tello-Swift-Playground-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DroneBlocks-Tello-Swift-Playgrounds-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -186,17 +190,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Pods-DroneBlocks-Tello-Swift-Playground-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playgrounds/Pods-DroneBlocks-Tello-Swift-Playgrounds-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playgrounds/Pods-DroneBlocks-Tello-Swift-Playgrounds-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Pods-DroneBlocks-Tello-Swift-Playground-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DroneBlocks-Tello-Swift-Playgrounds/Pods-DroneBlocks-Tello-Swift-Playgrounds-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -351,7 +354,7 @@
 		};
 		2314B246224B0B1300FDACF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6693FE24F4E67D764ADB423F /* Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig */;
+			baseConfigurationReference = E127BE162C3FA1D6E55B2D76 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,7 +373,7 @@
 		};
 		2314B247224B0B1300FDACF8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F424A8C3B1798A8C6E0C6BA /* Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig */;
+			baseConfigurationReference = 78D919E338BDA1BD3A95D2D8 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,6 +1,0 @@
-framework module Pods_DroneBlocks_Tello_Swift_Playground {
-  umbrella header "Pods-DroneBlocks-Tello-Swift-Playground-umbrella.h"
-
-  export *
-  module * { export * }
-}

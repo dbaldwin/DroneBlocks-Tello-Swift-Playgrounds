@@ -7,225 +7,225 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0761F5D7DF678795685092677A50B8FD /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 21E505997513D83AFD4626EECDFF20D1 /* ytcpsocket.c */; };
-		39EED27044ADC42233BDE4D0250994C0 /* Pods-DroneBlocks-Tello-Swift-Playground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45EF2CD44AF15CBDA0F5CAD57973AF9A /* Pods-DroneBlocks-Tello-Swift-Playground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45A917F88303CCD8169378A0B0F01AE4 /* SwiftSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3482A89ED856ED2B4645D3BF63D48C /* SwiftSocket-dummy.m */; };
-		58B23EB77016E4E66AB7D85BB1D821BE /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FF9585981F7B619C85C2C6E4DCF91 /* Socket.swift */; };
-		5F0E63D9E96DB2925943197DDF626DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		6069B52B8A4D97D79F7C3769ED9FCBF3 /* Pods-DroneBlocks-Tello-Swift-Playground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 051DB960AC19848F1FFF9598231B2C05 /* Pods-DroneBlocks-Tello-Swift-Playground-dummy.m */; };
-		63D02FE62D5D1346C1466AA782EEF06B /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5752BCCE211EF17F51DD509637DDD333 /* yudpsocket.c */; };
-		783331185053AAD7C4A8C6845C240730 /* SwiftSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA6F1113B6CB3FEBB75D760E6B096F87 /* SwiftSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B89026A49AA42E2B6B01E05E1713F3C5 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C073B5E44A489A40FEBFC1148C40D1B5 /* TCPClient.swift */; };
-		C598B028CCBEE5ECD1A9FAD7FC4BE0CB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED4EEBEF28F2D922BF256FED95DA86C /* Result.swift */; };
-		DEDE6103AFE79A2B7773D832C28BEA0A /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886AD7CDE1F5CC782474EF3443C2BA56 /* UDPClient.swift */; };
-		FADE2602A48ED488E76C60B296BA8FA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		08191CC86B55C905270C12EBA7E8370E /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E59343DC1B431D5A15BA9F074BDDC /* UDPClient.swift */; };
+		10FF98D32189D045D89683CE1D2CE9FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		166EEF90798DCFA2EA40713F71FCB118 /* SwiftSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE744DA4CD44470453A32BAD6BCFEE2 /* SwiftSocket-dummy.m */; };
+		21DD75EC5041E9833574F5CD120E5C88 /* Pods-DroneBlocks-Tello-Swift-Playgrounds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E833C467C1B909492E38F33CF4C815 /* Pods-DroneBlocks-Tello-Swift-Playgrounds-dummy.m */; };
+		2F7DAE7A0065085DF182798F07B8B0D8 /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B68F60448A68271A55A5BE51FB9546 /* TCPClient.swift */; };
+		38FD62F3649AF1FC3CD7E3BB230F880B /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = D34E558791B9D0DA7BADEDE6FCC773AD /* ytcpsocket.c */; };
+		49A52E9308A843CB95A7CFAFB5C0D112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5BB907C502A7DEFA00C3F7ECA55CAE2B /* SwiftSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C98A82A34056375FA04A23EE99A0DE3A /* SwiftSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BE6BBE780DBD073893B4A13A9FF8775 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E02ECCD65A8BB2208F3B2BA41A40F /* yudpsocket.c */; };
+		828E940BB3624100CC415D96A59300AF /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E143F9F9E11CD6BF689A5CC25376C2E /* Result.swift */; };
+		C9C69395E3C1BEB97BAA8F32388B0B27 /* Pods-DroneBlocks-Tello-Swift-Playgrounds-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7FF76BC8C165DC867B05FEF2E89E9B /* Pods-DroneBlocks-Tello-Swift-Playgrounds-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0B80680091E5408AF4250323123A22 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609ADF7E8B98D570BE046E4C5DBDFD65 /* Socket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		098013B156F32BE6D8ADD9A64991AABD /* PBXContainerItemProxy */ = {
+		2E21B3942ACD26D31B1587843CB195B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5433CED1673C2522A606603C2149C924;
+			remoteGlobalIDString = 2098E99F31975F5C89523CC6EB58B9CC;
 			remoteInfo = SwiftSocket;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		051DB960AC19848F1FFF9598231B2C05 /* Pods-DroneBlocks-Tello-Swift-Playground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DroneBlocks-Tello-Swift-Playground-dummy.m"; sourceTree = "<group>"; };
-		1A3482A89ED856ED2B4645D3BF63D48C /* SwiftSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSocket-dummy.m"; sourceTree = "<group>"; };
-		21E505997513D83AFD4626EECDFF20D1 /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
-		2E755E372224FE54BF35609667B715B7 /* SwiftSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSocket.modulemap; sourceTree = "<group>"; };
-		41ABC195FB77C6F55172860F6116DC66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44C277FEBD4445FD32195982BF3D6510 /* SwiftSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSocket.xcconfig; sourceTree = "<group>"; };
-		45EF2CD44AF15CBDA0F5CAD57973AF9A /* Pods-DroneBlocks-Tello-Swift-Playground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DroneBlocks-Tello-Swift-Playground-umbrella.h"; sourceTree = "<group>"; };
-		5752BCCE211EF17F51DD509637DDD333 /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B70837890CEAD25986E45CEE8AAB615 /* Pods-DroneBlocks-Tello-Swift-Playground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DroneBlocks-Tello-Swift-Playground.modulemap"; sourceTree = "<group>"; };
-		6B976580537383A86C137538D38F1E42 /* Pods-DroneBlocks-Tello-Swift-Playground-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DroneBlocks-Tello-Swift-Playground-acknowledgements.plist"; sourceTree = "<group>"; };
-		875E2184FD4C3BBDF4E344914CFD68FC /* Pods-DroneBlocks-Tello-Swift-Playground-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DroneBlocks-Tello-Swift-Playground-frameworks.sh"; sourceTree = "<group>"; };
-		886AD7CDE1F5CC782474EF3443C2BA56 /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDPClient.swift; path = Sources/UDPClient.swift; sourceTree = "<group>"; };
-		8A8F982CBD781C4FD118352A8FD17B99 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSocket.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A9A27C833A0D22DCDFF5FE3CB44E25D /* SwiftSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		988C8653853399DE347EB6DC5AC214E3 /* Pods-DroneBlocks-Tello-Swift-Playground-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DroneBlocks-Tello-Swift-Playground-resources.sh"; sourceTree = "<group>"; };
-		9CE98475E9564E774F00B4BFFF4F43B1 /* Pods_DroneBlocks_Tello_Swift_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DroneBlocks_Tello_Swift_Playground.framework; path = "Pods-DroneBlocks-Tello-Swift-Playground.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EC3B55C3EE8C83DAD244A36BCF910BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9ED4EEBEF28F2D922BF256FED95DA86C /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
-		AA6F1113B6CB3FEBB75D760E6B096F87 /* SwiftSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-umbrella.h"; sourceTree = "<group>"; };
-		C073B5E44A489A40FEBFC1148C40D1B5 /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = Sources/TCPClient.swift; sourceTree = "<group>"; };
-		DA1BED8B63C4588B63E3322B847D500D /* Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig"; sourceTree = "<group>"; };
-		DB09FF13E5521A651C4014C3FC084350 /* Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig"; sourceTree = "<group>"; };
-		DD7FF9585981F7B619C85C2C6E4DCF91 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
-		F36FCA0ADF75C9E20CE6AD513B834D58 /* Pods-DroneBlocks-Tello-Swift-Playground-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DroneBlocks-Tello-Swift-Playground-acknowledgements.markdown"; sourceTree = "<group>"; };
+		010ECE49A2E1AEEB82459FF419E74F82 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DroneBlocks-Tello-Swift-Playgrounds.modulemap"; sourceTree = "<group>"; };
+		05E833C467C1B909492E38F33CF4C815 /* Pods-DroneBlocks-Tello-Swift-Playgrounds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DroneBlocks-Tello-Swift-Playgrounds-dummy.m"; sourceTree = "<group>"; };
+		09B68F60448A68271A55A5BE51FB9546 /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = Sources/TCPClient.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		383B70CD1875BEC3A64BF7C7C377377A /* SwiftSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSocket.xcconfig; sourceTree = "<group>"; };
+		3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSocket.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		447E59343DC1B431D5A15BA9F074BDDC /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDPClient.swift; path = Sources/UDPClient.swift; sourceTree = "<group>"; };
+		45931B7E8A962A65D75251F7D0E60551 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DroneBlocks-Tello-Swift-Playgrounds.debug.xcconfig"; sourceTree = "<group>"; };
+		5B0E02ECCD65A8BB2208F3B2BA41A40F /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
+		609ADF7E8B98D570BE046E4C5DBDFD65 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
+		6EE744DA4CD44470453A32BAD6BCFEE2 /* SwiftSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSocket-dummy.m"; sourceTree = "<group>"; };
+		842BA5F0E4339920AB3D615C1D0F2E5D /* Pods-DroneBlocks-Tello-Swift-Playgrounds-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DroneBlocks-Tello-Swift-Playgrounds-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E143F9F9E11CD6BF689A5CC25376C2E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		9204AB33BB04A8067F0B9D2467CE7624 /* SwiftSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05A4A2850AD0FDEA18003AC6005E62D /* SwiftSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSocket.modulemap; sourceTree = "<group>"; };
+		A10A6BC69A10A16955BCE06F27B24345 /* Pods-DroneBlocks-Tello-Swift-Playgrounds-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DroneBlocks-Tello-Swift-Playgrounds-Info.plist"; sourceTree = "<group>"; };
+		B32835A7172464CDB5784B058D13CC0A /* Pods-DroneBlocks-Tello-Swift-Playgrounds-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DroneBlocks-Tello-Swift-Playgrounds-frameworks.sh"; sourceTree = "<group>"; };
+		C98A82A34056375FA04A23EE99A0DE3A /* SwiftSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-umbrella.h"; sourceTree = "<group>"; };
+		CA7FF76BC8C165DC867B05FEF2E89E9B /* Pods-DroneBlocks-Tello-Swift-Playgrounds-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DroneBlocks-Tello-Swift-Playgrounds-umbrella.h"; sourceTree = "<group>"; };
+		CBA4FC1A31E9F710B841E94FFE04959F /* SwiftSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSocket-Info.plist"; sourceTree = "<group>"; };
+		CFA08735BE6CC2209E0B258D291DC7FD /* Pods-DroneBlocks-Tello-Swift-Playgrounds-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DroneBlocks-Tello-Swift-Playgrounds-acknowledgements.plist"; sourceTree = "<group>"; };
+		D34E558791B9D0DA7BADEDE6FCC773AD /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
+		E9F047DC3E9A19D647FFB7A672E86601 /* Pods_DroneBlocks_Tello_Swift_Playgrounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DroneBlocks_Tello_Swift_Playgrounds.framework; path = "Pods-DroneBlocks-Tello-Swift-Playgrounds.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB618776634CB3ACE92B714998D393EA /* Pods-DroneBlocks-Tello-Swift-Playgrounds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DroneBlocks-Tello-Swift-Playgrounds.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		746820186ED3E490127CD86EE546AA23 /* Frameworks */ = {
+		25BBF13CC03204B847E2D577AEC606BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F0E63D9E96DB2925943197DDF626DE9 /* Foundation.framework in Frameworks */,
+				49A52E9308A843CB95A7CFAFB5C0D112 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B0C77459828DB212739B27A394233F8 /* Frameworks */ = {
+		6207A291FB7F97FEED7FB837CB541ABA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADE2602A48ED488E76C60B296BA8FA0 /* Foundation.framework in Frameworks */,
+				10FF98D32189D045D89683CE1D2CE9FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04F81F21E9B2EFE1074777E2D2759FF9 /* Pods */ = {
+		5D635881E93A5F52E36A225DD33F9C41 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A44A66ADA1344DA9E7A74277DE6C0CE1 /* SwiftSocket */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		414ABC95BFE60C2DFECBB020F1963661 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9CE98475E9564E774F00B4BFFF4F43B1 /* Pods_DroneBlocks_Tello_Swift_Playground.framework */,
-				8A8F982CBD781C4FD118352A8FD17B99 /* SwiftSocket.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		41E8F95826A43A5B6F8B7BE1B0401685 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CA3B0230942BA3137259D5604ED96522 /* Pods-DroneBlocks-Tello-Swift-Playground */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				04F81F21E9B2EFE1074777E2D2759FF9 /* Pods */,
-				414ABC95BFE60C2DFECBB020F1963661 /* Products */,
-				41E8F95826A43A5B6F8B7BE1B0401685 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A44A66ADA1344DA9E7A74277DE6C0CE1 /* SwiftSocket */ = {
-			isa = PBXGroup;
-			children = (
-				9ED4EEBEF28F2D922BF256FED95DA86C /* Result.swift */,
-				DD7FF9585981F7B619C85C2C6E4DCF91 /* Socket.swift */,
-				C073B5E44A489A40FEBFC1148C40D1B5 /* TCPClient.swift */,
-				886AD7CDE1F5CC782474EF3443C2BA56 /* UDPClient.swift */,
-				21E505997513D83AFD4626EECDFF20D1 /* ytcpsocket.c */,
-				5752BCCE211EF17F51DD509637DDD333 /* yudpsocket.c */,
-				FFC9005D7761A8434EFF9966F66F9A91 /* Support Files */,
-			);
-			name = SwiftSocket;
-			path = SwiftSocket;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CA3B0230942BA3137259D5604ED96522 /* Pods-DroneBlocks-Tello-Swift-Playground */ = {
-			isa = PBXGroup;
-			children = (
-				9EC3B55C3EE8C83DAD244A36BCF910BF /* Info.plist */,
-				6B70837890CEAD25986E45CEE8AAB615 /* Pods-DroneBlocks-Tello-Swift-Playground.modulemap */,
-				F36FCA0ADF75C9E20CE6AD513B834D58 /* Pods-DroneBlocks-Tello-Swift-Playground-acknowledgements.markdown */,
-				6B976580537383A86C137538D38F1E42 /* Pods-DroneBlocks-Tello-Swift-Playground-acknowledgements.plist */,
-				051DB960AC19848F1FFF9598231B2C05 /* Pods-DroneBlocks-Tello-Swift-Playground-dummy.m */,
-				875E2184FD4C3BBDF4E344914CFD68FC /* Pods-DroneBlocks-Tello-Swift-Playground-frameworks.sh */,
-				988C8653853399DE347EB6DC5AC214E3 /* Pods-DroneBlocks-Tello-Swift-Playground-resources.sh */,
-				45EF2CD44AF15CBDA0F5CAD57973AF9A /* Pods-DroneBlocks-Tello-Swift-Playground-umbrella.h */,
-				DB09FF13E5521A651C4014C3FC084350 /* Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig */,
-				DA1BED8B63C4588B63E3322B847D500D /* Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig */,
-			);
-			name = "Pods-DroneBlocks-Tello-Swift-Playground";
-			path = "Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground";
-			sourceTree = "<group>";
-		};
-		FFC9005D7761A8434EFF9966F66F9A91 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				41ABC195FB77C6F55172860F6116DC66 /* Info.plist */,
-				2E755E372224FE54BF35609667B715B7 /* SwiftSocket.modulemap */,
-				44C277FEBD4445FD32195982BF3D6510 /* SwiftSocket.xcconfig */,
-				1A3482A89ED856ED2B4645D3BF63D48C /* SwiftSocket-dummy.m */,
-				8A9A27C833A0D22DCDFF5FE3CB44E25D /* SwiftSocket-prefix.pch */,
-				AA6F1113B6CB3FEBB75D760E6B096F87 /* SwiftSocket-umbrella.h */,
+				A05A4A2850AD0FDEA18003AC6005E62D /* SwiftSocket.modulemap */,
+				383B70CD1875BEC3A64BF7C7C377377A /* SwiftSocket.xcconfig */,
+				6EE744DA4CD44470453A32BAD6BCFEE2 /* SwiftSocket-dummy.m */,
+				CBA4FC1A31E9F710B841E94FFE04959F /* SwiftSocket-Info.plist */,
+				9204AB33BB04A8067F0B9D2467CE7624 /* SwiftSocket-prefix.pch */,
+				C98A82A34056375FA04A23EE99A0DE3A /* SwiftSocket-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwiftSocket";
 			sourceTree = "<group>";
 		};
+		A22EFB49CA199E2DB5F940496C257E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F047DC3E9A19D647FFB7A672E86601 /* Pods_DroneBlocks_Tello_Swift_Playgrounds.framework */,
+				3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1DB9ECD821D1BEBEE42F1189E8B914D /* SwiftSocket */ = {
+			isa = PBXGroup;
+			children = (
+				8E143F9F9E11CD6BF689A5CC25376C2E /* Result.swift */,
+				609ADF7E8B98D570BE046E4C5DBDFD65 /* Socket.swift */,
+				09B68F60448A68271A55A5BE51FB9546 /* TCPClient.swift */,
+				447E59343DC1B431D5A15BA9F074BDDC /* UDPClient.swift */,
+				D34E558791B9D0DA7BADEDE6FCC773AD /* ytcpsocket.c */,
+				5B0E02ECCD65A8BB2208F3B2BA41A40F /* yudpsocket.c */,
+				5D635881E93A5F52E36A225DD33F9C41 /* Support Files */,
+			);
+			name = SwiftSocket;
+			path = SwiftSocket;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE095FFC403D06731DBD93E1F5970A85 /* Pods-DroneBlocks-Tello-Swift-Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				010ECE49A2E1AEEB82459FF419E74F82 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.modulemap */,
+				842BA5F0E4339920AB3D615C1D0F2E5D /* Pods-DroneBlocks-Tello-Swift-Playgrounds-acknowledgements.markdown */,
+				CFA08735BE6CC2209E0B258D291DC7FD /* Pods-DroneBlocks-Tello-Swift-Playgrounds-acknowledgements.plist */,
+				05E833C467C1B909492E38F33CF4C815 /* Pods-DroneBlocks-Tello-Swift-Playgrounds-dummy.m */,
+				B32835A7172464CDB5784B058D13CC0A /* Pods-DroneBlocks-Tello-Swift-Playgrounds-frameworks.sh */,
+				A10A6BC69A10A16955BCE06F27B24345 /* Pods-DroneBlocks-Tello-Swift-Playgrounds-Info.plist */,
+				CA7FF76BC8C165DC867B05FEF2E89E9B /* Pods-DroneBlocks-Tello-Swift-Playgrounds-umbrella.h */,
+				45931B7E8A962A65D75251F7D0E60551 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.debug.xcconfig */,
+				FB618776634CB3ACE92B714998D393EA /* Pods-DroneBlocks-Tello-Swift-Playgrounds.release.xcconfig */,
+			);
+			name = "Pods-DroneBlocks-Tello-Swift-Playgrounds";
+			path = "Target Support Files/Pods-DroneBlocks-Tello-Swift-Playgrounds";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D5EC352109CA1F9CC0CB3BCA4B89FE57 /* Pods */,
+				A22EFB49CA199E2DB5F940496C257E34 /* Products */,
+				EC3ED9C397F570670AD955997DC91558 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EC352109CA1F9CC0CB3BCA4B89FE57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB9ECD821D1BEBEE42F1189E8B914D /* SwiftSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC3ED9C397F570670AD955997DC91558 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE095FFC403D06731DBD93E1F5970A85 /* Pods-DroneBlocks-Tello-Swift-Playgrounds */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A91C0B6914DEF0C2D439E02726052DE6 /* Headers */ = {
+		DC3106B504678C60365EA746F2704214 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39EED27044ADC42233BDE4D0250994C0 /* Pods-DroneBlocks-Tello-Swift-Playground-umbrella.h in Headers */,
+				5BB907C502A7DEFA00C3F7ECA55CAE2B /* SwiftSocket-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B39E5051ABC399E893BFB37E05CFFBB1 /* Headers */ = {
+		E9B9F79CC9F72C7371A7726B1E05887A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				783331185053AAD7C4A8C6845C240730 /* SwiftSocket-umbrella.h in Headers */,
+				C9C69395E3C1BEB97BAA8F32388B0B27 /* Pods-DroneBlocks-Tello-Swift-Playgrounds-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2B0909AC9D2383A1DA44E385CEB17F71 /* Pods-DroneBlocks-Tello-Swift-Playground */ = {
+		03FC62EB4C84B197E514D8C1FD7F5DB2 /* Pods-DroneBlocks-Tello-Swift-Playgrounds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AAD62B98732E41F7189FDF278BFB474 /* Build configuration list for PBXNativeTarget "Pods-DroneBlocks-Tello-Swift-Playground" */;
+			buildConfigurationList = BE256EB319CF29B25A71729713D7CC83 /* Build configuration list for PBXNativeTarget "Pods-DroneBlocks-Tello-Swift-Playgrounds" */;
 			buildPhases = (
-				1900CE3CA69C603D8901F32AD3DCEA19 /* Sources */,
-				8B0C77459828DB212739B27A394233F8 /* Frameworks */,
-				A91C0B6914DEF0C2D439E02726052DE6 /* Headers */,
+				E9B9F79CC9F72C7371A7726B1E05887A /* Headers */,
+				02E7C964FC32960672528F51DE1CFF7C /* Sources */,
+				25BBF13CC03204B847E2D577AEC606BA /* Frameworks */,
+				F040A76BC876519AE3B23B5C71B53A88 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5CDD41E1A41DA7B15E73769F5D18EF03 /* PBXTargetDependency */,
+				CAD4774854C0FBCBC46790DF0BE41BA6 /* PBXTargetDependency */,
 			);
-			name = "Pods-DroneBlocks-Tello-Swift-Playground";
-			productName = "Pods-DroneBlocks-Tello-Swift-Playground";
-			productReference = 9CE98475E9564E774F00B4BFFF4F43B1 /* Pods_DroneBlocks_Tello_Swift_Playground.framework */;
+			name = "Pods-DroneBlocks-Tello-Swift-Playgrounds";
+			productName = "Pods-DroneBlocks-Tello-Swift-Playgrounds";
+			productReference = E9F047DC3E9A19D647FFB7A672E86601 /* Pods_DroneBlocks_Tello_Swift_Playgrounds.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5433CED1673C2522A606603C2149C924 /* SwiftSocket */ = {
+		2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C10546577427DB07C47E0979DD48C5F2 /* Build configuration list for PBXNativeTarget "SwiftSocket" */;
+			buildConfigurationList = 227044261F7ABB997524D6854C4DA01A /* Build configuration list for PBXNativeTarget "SwiftSocket" */;
 			buildPhases = (
-				9AC2243C10BE8F86BAB48B00A2AF5583 /* Sources */,
-				746820186ED3E490127CD86EE546AA23 /* Frameworks */,
-				B39E5051ABC399E893BFB37E05CFFBB1 /* Headers */,
+				DC3106B504678C60365EA746F2704214 /* Headers */,
+				AA62000C9E8FA0E341EB10F6F89A8844 /* Sources */,
+				6207A291FB7F97FEED7FB837CB541ABA /* Frameworks */,
+				99652FCBC8D3FDD8F6EA0DC26B0734B5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -233,72 +233,124 @@
 			);
 			name = SwiftSocket;
 			productName = SwiftSocket;
-			productReference = 8A8F982CBD781C4FD118352A8FD17B99 /* SwiftSocket.framework */;
+			productReference = 3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 414ABC95BFE60C2DFECBB020F1963661 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A22EFB49CA199E2DB5F940496C257E34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B0909AC9D2383A1DA44E385CEB17F71 /* Pods-DroneBlocks-Tello-Swift-Playground */,
-				5433CED1673C2522A606603C2149C924 /* SwiftSocket */,
+				03FC62EB4C84B197E514D8C1FD7F5DB2 /* Pods-DroneBlocks-Tello-Swift-Playgrounds */,
+				2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		1900CE3CA69C603D8901F32AD3DCEA19 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		99652FCBC8D3FDD8F6EA0DC26B0734B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6069B52B8A4D97D79F7C3769ED9FCBF3 /* Pods-DroneBlocks-Tello-Swift-Playground-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AC2243C10BE8F86BAB48B00A2AF5583 /* Sources */ = {
+		F040A76BC876519AE3B23B5C71B53A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E7C964FC32960672528F51DE1CFF7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C598B028CCBEE5ECD1A9FAD7FC4BE0CB /* Result.swift in Sources */,
-				58B23EB77016E4E66AB7D85BB1D821BE /* Socket.swift in Sources */,
-				45A917F88303CCD8169378A0B0F01AE4 /* SwiftSocket-dummy.m in Sources */,
-				B89026A49AA42E2B6B01E05E1713F3C5 /* TCPClient.swift in Sources */,
-				DEDE6103AFE79A2B7773D832C28BEA0A /* UDPClient.swift in Sources */,
-				0761F5D7DF678795685092677A50B8FD /* ytcpsocket.c in Sources */,
-				63D02FE62D5D1346C1466AA782EEF06B /* yudpsocket.c in Sources */,
+				21DD75EC5041E9833574F5CD120E5C88 /* Pods-DroneBlocks-Tello-Swift-Playgrounds-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA62000C9E8FA0E341EB10F6F89A8844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				828E940BB3624100CC415D96A59300AF /* Result.swift in Sources */,
+				DA0B80680091E5408AF4250323123A22 /* Socket.swift in Sources */,
+				166EEF90798DCFA2EA40713F71FCB118 /* SwiftSocket-dummy.m in Sources */,
+				2F7DAE7A0065085DF182798F07B8B0D8 /* TCPClient.swift in Sources */,
+				08191CC86B55C905270C12EBA7E8370E /* UDPClient.swift in Sources */,
+				38FD62F3649AF1FC3CD7E3BB230F880B /* ytcpsocket.c in Sources */,
+				5BE6BBE780DBD073893B4A13A9FF8775 /* yudpsocket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5CDD41E1A41DA7B15E73769F5D18EF03 /* PBXTargetDependency */ = {
+		CAD4774854C0FBCBC46790DF0BE41BA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftSocket;
-			target = 5433CED1673C2522A606603C2149C924 /* SwiftSocket */;
-			targetProxy = 098013B156F32BE6D8ADD9A64991AABD /* PBXContainerItemProxy */;
+			target = 2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */;
+			targetProxy = 2E21B3942ACD26D31B1587843CB195B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+		155A015B7A640F06B7127E7A24854CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383B70CD1875BEC3A64BF7C7C377377A /* SwiftSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/SwiftSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSocket;
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,8 +382,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -350,126 +400,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		17517DD3C6B17B8D63EFBA2E549FA06F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB09FF13E5521A651C4014C3FC084350 /* Pods-DroneBlocks-Tello-Swift-Playground.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Pods-DroneBlocks-Tello-Swift-Playground.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2F5D6312EB9F0909F6E04C91843F4FFD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44C277FEBD4445FD32195982BF3D6510 /* SwiftSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
-				PRODUCT_MODULE_NAME = SwiftSocket;
-				PRODUCT_NAME = SwiftSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3B3A498EBE4592B72C9515D017FBBA8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44C277FEBD4445FD32195982BF3D6510 /* SwiftSocket.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftSocket/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
-				PRODUCT_MODULE_NAME = SwiftSocket;
-				PRODUCT_NAME = SwiftSocket;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -501,8 +442,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -523,18 +462,55 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F40E685BF8FC8E9284F067F1158D4FEC /* Release */ = {
+		68214CE65F0BCE189FCA258837427B04 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA1BED8B63C4588B63E3322B847D500D /* Pods-DroneBlocks-Tello-Swift-Playground.release.xcconfig */;
+			baseConfigurationReference = 383B70CD1875BEC3A64BF7C7C377377A /* SwiftSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/SwiftSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSocket;
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		76A72548329FE298827BEDFAEAA1AA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45931B7E8A962A65D75251F7D0E60551 /* Pods-DroneBlocks-Tello-Swift-Playgrounds.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -547,7 +523,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DroneBlocks-Tello-Swift-Playgrounds/Pods-DroneBlocks-Tello-Swift-Playgrounds-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -556,7 +532,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DroneBlocks-Tello-Swift-Playground/Pods-DroneBlocks-Tello-Swift-Playground.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DroneBlocks-Tello-Swift-Playgrounds/Pods-DroneBlocks-Tello-Swift-Playgrounds.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -564,7 +540,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D403702A81F782D7147B1343EA7723C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB618776634CB3ACE92B714998D393EA /* Pods-DroneBlocks-Tello-Swift-Playgrounds.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DroneBlocks-Tello-Swift-Playgrounds/Pods-DroneBlocks-Tello-Swift-Playgrounds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DroneBlocks-Tello-Swift-Playgrounds/Pods-DroneBlocks-Tello-Swift-Playgrounds.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -575,34 +588,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		227044261F7ABB997524D6854C4DA01A /* Build configuration list for PBXNativeTarget "SwiftSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
-				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+				68214CE65F0BCE189FCA258837427B04 /* Debug */,
+				155A015B7A640F06B7127E7A24854CA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AAD62B98732E41F7189FDF278BFB474 /* Build configuration list for PBXNativeTarget "Pods-DroneBlocks-Tello-Swift-Playground" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17517DD3C6B17B8D63EFBA2E549FA06F /* Debug */,
-				F40E685BF8FC8E9284F067F1158D4FEC /* Release */,
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C10546577427DB07C47E0979DD48C5F2 /* Build configuration list for PBXNativeTarget "SwiftSocket" */ = {
+		BE256EB319CF29B25A71729713D7CC83 /* Build configuration list for PBXNativeTarget "Pods-DroneBlocks-Tello-Swift-Playgrounds" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F5D6312EB9F0909F6E04C91843F4FFD /* Debug */,
-				3B3A498EBE4592B72C9515D017FBBA8B /* Release */,
+				76A72548329FE298827BEDFAEAA1AA18 /* Debug */,
+				8D403702A81F782D7147B1343EA7723C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
